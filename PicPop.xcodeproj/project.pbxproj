@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0E5E3BF9D5C6DAA0A90FD37A /* Pods_PicPop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 107C7F5509506CE1D377694B /* Pods_PicPop.framework */; };
+		9B14D5DC1E9A6321007BE353 /* readme.md in Sources */ = {isa = PBXBuildFile; fileRef = 9B14D5DB1E9A6321007BE353 /* readme.md */; };
 		9B5F48081E98CD6900CA2D83 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 9B59D0A91E98C99200B7527A /* Podfile */; };
 		9B66045C1E98BC5C00591469 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B66045B1E98BC5C00591469 /* AppDelegate.swift */; };
 		9B66045E1E98BC5C00591469 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B66045D1E98BC5C00591469 /* ViewController.swift */; };
@@ -31,6 +32,7 @@
 /* Begin PBXFileReference section */
 		107C7F5509506CE1D377694B /* Pods_PicPop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PicPop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		42398836F185DF852BBE9849 /* Pods-PicPop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PicPop.release.xcconfig"; path = "Pods/Target Support Files/Pods-PicPop/Pods-PicPop.release.xcconfig"; sourceTree = "<group>"; };
+		9B14D5DB1E9A6321007BE353 /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
 		9B59D0A91E98C99200B7527A /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9B6604581E98BC5C00591469 /* PicPop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PicPop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B66045B1E98BC5C00591469 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 		9B66044F1E98BC5C00591469 = {
 			isa = PBXGroup;
 			children = (
+				9B14D5DB1E9A6321007BE353 /* readme.md */,
 				9B59D0A91E98C99200B7527A /* Podfile */,
 				9B66045A1E98BC5C00591469 /* PicPop */,
 				9B66046F1E98BC5C00591469 /* PicPopUITests */,
@@ -283,6 +286,7 @@
 			files = (
 				9B66045E1E98BC5C00591469 /* ViewController.swift in Sources */,
 				9BDCAB171E98E23900F6A1B2 /* PicPop.swift in Sources */,
+				9B14D5DC1E9A6321007BE353 /* readme.md in Sources */,
 				9B66045C1E98BC5C00591469 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
