@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E5E3BF9D5C6DAA0A90FD37A /* Pods_PicPop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 107C7F5509506CE1D377694B /* Pods_PicPop.framework */; };
+		9B5F48081E98CD6900CA2D83 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 9B59D0A91E98C99200B7527A /* Podfile */; };
+		9B66045C1E98BC5C00591469 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B66045B1E98BC5C00591469 /* AppDelegate.swift */; };
+		9B66045E1E98BC5C00591469 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B66045D1E98BC5C00591469 /* ViewController.swift */; };
+		9B6604631E98BC5C00591469 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B6604621E98BC5C00591469 /* Assets.xcassets */; };
+		9B6604711E98BC5C00591469 /* PicPopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6604701E98BC5C00591469 /* PicPopUITests.swift */; };
+		9B66047C1E98BC9900591469 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B66047B1E98BC9900591469 /* ViewController.xib */; };
+		9BDCAB171E98E23900F6A1B2 /* PicPop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDCAB161E98E23900F6A1B2 /* PicPop.swift */; };
+		9BF3B7E51E98E49E00297D4B /* PicPop.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BF3B7E41E98E49E00297D4B /* PicPop.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9B66046D1E98BC5C00591469 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B6604501E98BC5C00591469 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B6604571E98BC5C00591469;
+			remoteInfo = PicPop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		107C7F5509506CE1D377694B /* Pods_PicPop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PicPop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		42398836F185DF852BBE9849 /* Pods-PicPop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PicPop.release.xcconfig"; path = "Pods/Target Support Files/Pods-PicPop/Pods-PicPop.release.xcconfig"; sourceTree = "<group>"; };
+		9B59D0A91E98C99200B7527A /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9B6604581E98BC5C00591469 /* PicPop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PicPop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B66045B1E98BC5C00591469 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9B66045D1E98BC5C00591469 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9B6604621E98BC5C00591469 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B6604671E98BC5C00591469 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B66046C1E98BC5C00591469 /* PicPopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PicPopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B6604701E98BC5C00591469 /* PicPopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicPopUITests.swift; sourceTree = "<group>"; };
+		9B6604721E98BC5C00591469 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B66047B1E98BC9900591469 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		9BDCAB161E98E23900F6A1B2 /* PicPop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PicPop.swift; sourceTree = "<group>"; };
+		9BF3B7E41E98E49E00297D4B /* PicPop.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PicPop.xib; sourceTree = "<group>"; };
+		B9C60C0E16527F27BD76813C /* Pods-PicPop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PicPop.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PicPop/Pods-PicPop.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B6604551E98BC5C00591469 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E5E3BF9D5C6DAA0A90FD37A /* Pods_PicPop.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B6604691E98BC5C00591469 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FED11B3E8F1011C20A769D7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B9C60C0E16527F27BD76813C /* Pods-PicPop.debug.xcconfig */,
+				42398836F185DF852BBE9849 /* Pods-PicPop.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9B66044F1E98BC5C00591469 = {
+			isa = PBXGroup;
+			children = (
+				9B59D0A91E98C99200B7527A /* Podfile */,
+				9B66045A1E98BC5C00591469 /* PicPop */,
+				9B66046F1E98BC5C00591469 /* PicPopUITests */,
+				9B6604591E98BC5C00591469 /* Products */,
+				1FED11B3E8F1011C20A769D7 /* Pods */,
+				CA9015046C9A456B0A993112 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9B6604591E98BC5C00591469 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B6604581E98BC5C00591469 /* PicPop.app */,
+				9B66046C1E98BC5C00591469 /* PicPopUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B66045A1E98BC5C00591469 /* PicPop */ = {
+			isa = PBXGroup;
+			children = (
+				9B66045B1E98BC5C00591469 /* AppDelegate.swift */,
+				9B66045D1E98BC5C00591469 /* ViewController.swift */,
+				9B6604621E98BC5C00591469 /* Assets.xcassets */,
+				9B6604671E98BC5C00591469 /* Info.plist */,
+				9B66047B1E98BC9900591469 /* ViewController.xib */,
+				9BDCAB161E98E23900F6A1B2 /* PicPop.swift */,
+				9BF3B7E41E98E49E00297D4B /* PicPop.xib */,
+			);
+			path = PicPop;
+			sourceTree = "<group>";
+		};
+		9B66046F1E98BC5C00591469 /* PicPopUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9B6604701E98BC5C00591469 /* PicPopUITests.swift */,
+				9B6604721E98BC5C00591469 /* Info.plist */,
+			);
+			path = PicPopUITests;
+			sourceTree = "<group>";
+		};
+		CA9015046C9A456B0A993112 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				107C7F5509506CE1D377694B /* Pods_PicPop.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B6604571E98BC5C00591469 /* PicPop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B6604751E98BC5C00591469 /* Build configuration list for PBXNativeTarget "PicPop" */;
+			buildPhases = (
+				32F61FF24625D7A93503A852 /* [CP] Check Pods Manifest.lock */,
+				9B6604541E98BC5C00591469 /* Sources */,
+				9B6604551E98BC5C00591469 /* Frameworks */,
+				9B6604561E98BC5C00591469 /* Resources */,
+				18BCC1EDA48ED7F60B5DB41A /* [CP] Embed Pods Frameworks */,
+				77FB1710329337346401035F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PicPop;
+			productName = PicPop;
+			productReference = 9B6604581E98BC5C00591469 /* PicPop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9B66046B1E98BC5C00591469 /* PicPopUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B6604781E98BC5C00591469 /* Build configuration list for PBXNativeTarget "PicPopUITests" */;
+			buildPhases = (
+				9B6604681E98BC5C00591469 /* Sources */,
+				9B6604691E98BC5C00591469 /* Frameworks */,
+				9B66046A1E98BC5C00591469 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B66046E1E98BC5C00591469 /* PBXTargetDependency */,
+			);
+			name = PicPopUITests;
+			productName = PicPopUITests;
+			productReference = 9B66046C1E98BC5C00591469 /* PicPopUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B6604501E98BC5C00591469 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = GeekTree;
+				TargetAttributes = {
+					9B6604571E98BC5C00591469 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					9B66046B1E98BC5C00591469 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9B6604571E98BC5C00591469;
+					};
+				};
+			};
+			buildConfigurationList = 9B6604531E98BC5C00591469 /* Build configuration list for PBXProject "PicPop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9B66044F1E98BC5C00591469;
+			productRefGroup = 9B6604591E98BC5C00591469 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B6604571E98BC5C00591469 /* PicPop */,
+				9B66046B1E98BC5C00591469 /* PicPopUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B6604561E98BC5C00591469 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B66047C1E98BC9900591469 /* ViewController.xib in Resources */,
+				9B6604631E98BC5C00591469 /* Assets.xcassets in Resources */,
+				9BF3B7E51E98E49E00297D4B /* PicPop.xib in Resources */,
+				9B5F48081E98CD6900CA2D83 /* Podfile in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B66046A1E98BC5C00591469 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18BCC1EDA48ED7F60B5DB41A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PicPop/Pods-PicPop-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		32F61FF24625D7A93503A852 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		77FB1710329337346401035F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PicPop/Pods-PicPop-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B6604541E98BC5C00591469 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B66045E1E98BC5C00591469 /* ViewController.swift in Sources */,
+				9BDCAB171E98E23900F6A1B2 /* PicPop.swift in Sources */,
+				9B66045C1E98BC5C00591469 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B6604681E98BC5C00591469 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B6604711E98BC5C00591469 /* PicPopUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9B66046E1E98BC5C00591469 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B6604571E98BC5C00591469 /* PicPop */;
+			targetProxy = 9B66046D1E98BC5C00591469 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9B6604731E98BC5C00591469 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9B6604741E98BC5C00591469 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B6604761E98BC5C00591469 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9C60C0E16527F27BD76813C /* Pods-PicPop.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = PicPop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = app.PicPop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INCLUDE_PATHS = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9B6604771E98BC5C00591469 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42398836F185DF852BBE9849 /* Pods-PicPop.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = PicPop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = app.PicPop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		9B6604791E98BC5C00591469 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = PicPopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = app.PicPopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PicPop;
+			};
+			name = Debug;
+		};
+		9B66047A1E98BC5C00591469 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = PicPopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = app.PicPopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PicPop;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B6604531E98BC5C00591469 /* Build configuration list for PBXProject "PicPop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B6604731E98BC5C00591469 /* Debug */,
+				9B6604741E98BC5C00591469 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B6604751E98BC5C00591469 /* Build configuration list for PBXNativeTarget "PicPop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B6604761E98BC5C00591469 /* Debug */,
+				9B6604771E98BC5C00591469 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B6604781E98BC5C00591469 /* Build configuration list for PBXNativeTarget "PicPopUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B6604791E98BC5C00591469 /* Debug */,
+				9B66047A1E98BC5C00591469 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B6604501E98BC5C00591469 /* Project object */;
+}
